@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+
+  <!-- CSS Galerie -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <title>Galerie Photos</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center text-center align-items-center">
+      <div class="col-12">
+        <h1>Galerie</h1>
+      </div>
+      <div class="col-1" id="prev">
+        <i class="fas fa-chevron-left"></i>
+      </div>
+      <div class="col-5" id="galery">
+        <img src="img/photo1.jpg" alt="" class="img-fluid" />
+        <img src="img/photo2.jpg" alt="" class="img-fluid" />
+        <img src="img/photo3.jpg" alt="" class="img-fluid" />
+        <img src="img/photo4.jpg" alt="" class="img-fluid" />
+      </div>
+      <div class="col-1" id="next">
+        <i class="fas fa-chevron-right"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <span id="pause"><i class="fas fa-pause"></i></span>
+        <span id="play"><i class="fas fa-play"></i></span>
+      </div>
+    </div>
+  </div>
+  <script src="js/galerie.js"></script>
+</body>
+
+</html>
