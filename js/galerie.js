@@ -66,3 +66,13 @@ const prev = function () {
     images[imgActive].classList.add("show");
   }, 300);
 };
+
+//Gestion touches du clavier :
+window.addEventListener("keydown", function (e) {
+  if (e.key == "ArrowRight") {
+    next();
+  } //si la valeur de la clé de l'event est "ArrowRight", appeler la fonction next;
+  if (e.key == "ArrowLeft") {
+    prev();
+  } //si la valeur de la clé de l'event est "ArrowLeft", appeler la fonction prev;
+});
